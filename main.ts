@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     wuKong.setLightMode(wuKong.LightMode.BREATH)
-    wuKong.setMotorSpeed(wuKong.MotorList.M2, 1000)
+    wuKong.setMotorSpeed(wuKong.MotorList.M2, 100)
 })
 input.onButtonPressed(Button.AB, function () {
     wuKong.setLightMode(wuKong.LightMode.OFF)
@@ -11,9 +11,9 @@ input.onButtonPressed(Button.B, function () {
 })
 basic.showString("Hello, I am Eggbeater!")
 basic.showLeds(`
+    . . . . .
+    . # . # .
+    . . . . .
+    # . . . #
     . # # # .
-    # # . # #
-    # # # # #
-    # # # # #
-    # . # . #
     `)
